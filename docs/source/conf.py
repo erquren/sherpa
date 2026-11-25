@@ -176,6 +176,7 @@ rst_epilog = f"""
 .. _silero-vad: https://github.com/snakers4/silero-vad
 .. _silero_vad: https://github.com/snakers4/silero-vad
 .. _ten-vad: https://github.com/TEN-framework/ten-vad
+.. _nomo-pvad: https://huggingface.co/TuyaNomo/nomo-pvad
 .. _Flutter: https://flutter.dev/
 .. _Dart: https://dart.dev/
 .. _Node: https://nodejs.org/en
