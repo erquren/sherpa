@@ -221,6 +221,25 @@ target speaker and the rest belongs to somebody else. The script above prints
 
    0.07s + 2.47s
 
+A complete runnable demo is available at
+
+`<https://github.com/k2-fsa/sherpa-onnx/blob/master/python-api-examples/target-speaker-vad.py>`_
+
+It runs the same audio through the detector once for each enrollment clip, so
+you can see that the detected segments depend on who you enroll:
+
+.. code-block:: text
+
+   --- alice ---
+   timeline: ██████████████████......................
+   [0.07, 2.54] s  (2.47 s)
+   1 segment(s), 2.47 s of target speech out of 5.66 s
+
+   --- bob ---
+   timeline: .....................███████████████████
+   [3.11, 5.66] s  (2.55 s)
+   1 segment(s), 2.55 s of target speech out of 5.66 s
+
 Choosing a threshold
 --------------------
 
