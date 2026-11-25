@@ -219,7 +219,7 @@ target speaker and the rest belongs to somebody else. The script above prints
 
 .. code-block:: text
 
-   0.23s + 2.31s
+   0.07s + 2.47s
 
 Choosing a threshold
 --------------------
